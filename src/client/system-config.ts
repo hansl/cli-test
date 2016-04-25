@@ -1,6 +1,10 @@
 const barrels: string[] = [
   'app',
   'app/shared',
+  'app/+my-blue',
+  'app/+my-blue/+my-red',
+  'app/+my-blue/+my-red/+my-green',
+  'app/+my-blue/+my-red/+my-yellow',
   /** @cli-barrel */
 ];
 

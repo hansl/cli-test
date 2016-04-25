@@ -1,5 +1,6 @@
 import {Component} from 'angular2/core';
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
+import {MyBlueComponent} from './+my-blue';
 
 @Component({
   moduleId: __moduleName,
@@ -11,6 +12,7 @@ import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router'
   pipes: []
 })
 @RouteConfig([
+  {path: '/my-blue/...', name: 'MyBlue', component: MyBlueComponent, useAsDefault: true}
 ])
 export class MyAppApp {
   defaultMeaning: number = 42;

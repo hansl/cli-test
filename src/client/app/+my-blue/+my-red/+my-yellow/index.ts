@@ -1,0 +1,1 @@
+export {MyYellowComponent} from './my-yellow.component';

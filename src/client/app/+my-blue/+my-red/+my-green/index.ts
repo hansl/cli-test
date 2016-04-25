@@ -1,0 +1,1 @@
+export {MyGreenComponent} from './my-green.component';

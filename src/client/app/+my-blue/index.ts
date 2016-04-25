@@ -1,0 +1,1 @@
+export {MyBlueComponent} from './my-blue.component';
